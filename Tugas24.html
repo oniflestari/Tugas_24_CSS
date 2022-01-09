@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tugas CSS - Niomic</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<form>
+		<div>
+			<label for="nama" class="form-label"><strong>Nama Lengkap</strong></label>
+			<input type="text" class="form-control" id="nama" placeholder="Nama Lengkap">	
+		</div>
+		<br>
+		<div>
+			<label for="alamat" class="form-label"><strong>Alamat Rumah</strong></label>
+			<textarea class="form-control" id="alamat"></textarea>
+		</div>
+		<br>
+		<div>
+			<label for="foto" class="form-label"><strong>Foto Profil</strong></label>
+			<input type="file" class="form-control-plaintext" id="foto" accept="image/*">
+		</div>
+		<br>
+		<div>
+			<label for="email" class="form-label"><strong>Alamat Email</strong></label>
+			<input type="email" class="form-control" id="email" placeholder="Alamat email">
+		</div>
+		<br>
+		<div>
+			<label for="sandi" class="form-label"><strong>Kata Sandi</strong></label>
+			<input type="password" class="form-control" id="sandi">
+		</div>
+		<br>
+		<label class="form-label"><strong>Jenis Kendaraan Anda:</strong></label>
+		<div class="form-check form-check-inline">
+			<input 
+				class="form-check-input" 
+				type="radio"
+				name="inlineRadioOptions"
+				id="radio1"
+			>
+			<label class="form-check-label" for="radio1">Motor</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input 
+				class="form-check-input"
+				type="radio"
+				name="inlineRadioOptions"
+				id="radio2"
+			>
+			<label class="form-check-label" for="radio2">Mobil</label>
+		</div>
+		<div>
+			<button class="btn btn-primary" type="submit">Register</button>
+		</div>
+	</form>
+</body>
+</html>
